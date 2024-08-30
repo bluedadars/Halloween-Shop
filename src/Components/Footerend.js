@@ -7,7 +7,7 @@ export const Footerend = () => {
   const currentYear = new Date().getFullYear();
   return (
     <section className=''>
-            <div className="container flex mx-auto  pt-4 relative">
+            <div className="container flex md:flex-row flex-col mx-auto  pt-4 relative">
                 
     
             <div className='text-white flex-row  text-center md:text-left justify-center md:mx-12 mx-6  '>
@@ -53,16 +53,16 @@ export const Footerend = () => {
             </div>
             <FooterDivider  className='dividerline mx-auto mt-10 w-[92%]'></FooterDivider>
 
-  <div class=" flex p-4 m-5">
-  <a  class="flex items-center space-x-3 rtl:space-x-reverse">
+  <div class=" flex md:flex-row flex-col p-4">
+  <a  class="flex justify-center items-center md:justify-start space-x-3 rtl:space-x-reverse">
       <img src="/Images/logo-icon.svg" class="h-8"/>
       <span class="self-center headernav  text-white">
         HALLOWEEN SHOP
       </span>
   </a>
-  <div className='flex space-x-12 mx-auto justify-center'>
-  <div className="md:w-0.5 md:h-6 md:bg-black"></div>
-            <div className=" text-white text-md hover:text-[#E35701] divide-y-0 md:cursor-pointer">
+  <div className='flex md:flex-row py-4 flex-col md:space-x-12 text-center  mx-auto justify-center'>
+  <div className="md:w-0.5 md:h-6  md:bg-black"></div>
+            <div className="  text-md text-[#E35701] hover:text-[#E35701] divide-y-0 md:cursor-pointer">
               Home
             </div>
             <div className=" text-md text-white  hover:text-[#E35701]  md:cursor-pointer">
@@ -75,7 +75,7 @@ export const Footerend = () => {
               Contact
             </div>
             </div>
-            <div className='flex space-x-3 hover:fill-orange-600'>
+            <div className='flex justify-center items-center md:justify-start space-x-3 hover:fill-orange-600'>
             <LogoFacebook color={'white'} height="20px" width="20px"/>
 
             <LogoTwitter color={'white'} height="20px" width="20px"/>
@@ -86,7 +86,7 @@ export const Footerend = () => {
             
   </div>
   <FooterDivider  className='dividerline mx-auto mt-10 w-full'></FooterDivider>
-  <div class="text-center text-base text-gray-300 py-4">
+  <div class="text-center md:text-base text-sm text-gray-300 py-4">
    &copy; {currentYear} HALLOWEEN SHOP | All rights reserved.
 </div>
         </section>

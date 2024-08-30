@@ -13,7 +13,7 @@ class Hero extends Component {
                     <h1 className='md:text-8xl md:text-left text-4xl text-center headernav break-words'>HALLOWEEN <br></br> DECORATIONS </h1>
                     <p className='text-base md:text-left py-2 md:w-2/4 text-gray-400'>Whether you prefer the charm of classic Halloween decor or the thrill of modern and innovative designs, these decorations invite you to join in the celebration of all things eerie, enigmatic, and enchanting.</p>
                 </div>
-                <button className='text-white text-xs md:text-xl bg-[#E35701] p-2 rounded-lg md:w-36 w-28 md:mx-12 mx-28 mt-6 font-bold'>SHOP NOW</button>
+                <button className='text-white text-base md:text-base bg-[#E35701] p-2 rounded-lg md:w-36 w-28 md:mx-12 mx-28 mt-6 font-bold'>SHOP NOW</button>
                 
     
     

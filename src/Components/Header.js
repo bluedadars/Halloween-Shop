@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CartOutline, CloseOutline, MenuOutline } from "react-ionicons";
+import { CartOutline, CloseOutline, MenuOutline, Navigate } from "react-ionicons";
 const Header =()=> {
   let [toggle,setToggle] = useState(false);
   const handler=()=>{
@@ -52,9 +52,13 @@ console.log("cliked")
             <div className="fitem px-6 text-md md:px-3 py-4 space-y-4 hover:text-[#E35701] md:hover:underline  hover:underline-offset-4 md:cursor-pointer">
               Shop
             </div>
+            <a>
             <div className="fitem px-6 text-md md:px-3 py-4 md:py-0 hover:text-[#E35701] md:hover:underline  md:hover:underline-offset-4 md:cursor-pointer">
+              <a href="/about">
               About
+              </a>
             </div>
+            </a>
             <div className="fitem px-6 text-md md:px-3 py-4 md:py-0 hover:text-[#E35701] md:hover:underline  md:hover:underline-offset-4 md:cursor-pointer">
               Contact
             </div>

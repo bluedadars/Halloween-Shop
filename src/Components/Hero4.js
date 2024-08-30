@@ -29,8 +29,14 @@ export const Hero4 = () => {
 
             <FooterDivider  className='dividerline mx-auto mt-28 w-[92%]'></FooterDivider>
             </div>
-            
+
+
+
+        <div>
+            </div>    
         </section>
+
+
         
     );
 

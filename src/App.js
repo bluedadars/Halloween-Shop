@@ -9,19 +9,25 @@ import Card3 from './Components/Card3';
 import Hero4 from './Components/Hero4';
 import { Footer } from 'flowbite-react';
 import Footerend from './Components/Footerend';
+import { About } from './Components/About';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from './Components/Home';
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Header/>
-      <Hero/>
-      <Card/>
-      <Hero2/>
-      <Card2/>
-      <Hero3/>
-      <Card3/>
-      <Hero4/>
+      <Routes>
+        
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element ={<About/>}/>
+        
+
+
+      </Routes>
       <Footerend/>
+      </BrowserRouter>
     </div>
   );
 }

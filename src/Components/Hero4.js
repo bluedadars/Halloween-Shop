@@ -9,7 +9,7 @@ export const Hero4 = () => {
                 
                 <img src='/Images/BG-2.jpg' className='md:h-[590px] h-full w-full object-center bg-gray-500 opacity-55 mix-blend-screen absolute md:w-full object-cover rounded-3xl items-center overflow-hidden'/>
             
-            <div className='text-white text-center justify-center md:mx-12 mx-6 py-5 md:mt-32  '>
+            <div className='text-white text-center justify-center md:mx-12 mx-6 py-5 md:mt-32 wow animate__animated animate__slideInLeft '>
                 <h1 className='text-center uppercase text-orange-500'>Testimonials</h1>
                 <div className='items-center flex justify-center py-4  mx-auto'>
                     <Star color="white" size="24"/>

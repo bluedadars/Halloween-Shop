@@ -7,8 +7,8 @@ export const Card3 = () => {
         <div> 
             <div className='mt-52'>
                 <img src='/Images/BG-1.jpg' className=' h-full w-full absolute mix-blend-screen object-cover'/>
-                <h1 className='text-center md:text-xl text-xs uppercase tracking-wider font-bold text-[#f7660B]'>Most Delicious</h1>
-                <h1 className='headernav text-center text-2xl md:text-6xl py-2 uppercase'>Candies & Cookies</h1>
+                <h1 className='wow animate__animated animate__fadeInUpBig text-center md:text-xl text-xs uppercase tracking-wider font-bold text-[#f7660B]'>Most Delicious</h1>
+                <h1 className='wow animate__animated animate__fadeInUpBig headernav text-center text-2xl md:text-6xl py-2 uppercase'>Candies & Cookies</h1>
             </div>
             <FooterDivider className='w-12 mx-auto mt-6 content-center'/>   
     <div className='grid grid-cols-1 md:grid-cols-3'>
@@ -19,7 +19,7 @@ export const Card3 = () => {
              <div class="p-4 dark:bg-slate-800">
     <div class="">
         
-        <div class="md:w-[400px] w-screen h-fit shadow-lg duration-300 hover:scale-105">
+        <div class="md:w-[400px] w-screen h-fit shadow-lg duration-300 hover:scale-105 wow animate__animated animate__slideInUp">
             <div class=" relative p-4">
                 <a href=""><img class="md:w-full md:h-full object-cover" src={product.imgSrc3} alt=""/></a>
                 <div class="  rounded-l-lg flex items-center justify-center absolute top-4 right-auto">

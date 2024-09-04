@@ -12,8 +12,14 @@ import Footerend from './Components/Footerend';
 import { About } from './Components/About';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from './Components/Home';
+import Contact from './Components/Contact';
+import { useEffect } from 'react';
+import WOW from "wowjs";
 
 function App() {
+  useEffect(() => {
+    new WOW.WOW().init();
+  }, [])
   return (
     <div className="App">
       <BrowserRouter>
@@ -22,6 +28,7 @@ function App() {
         
         <Route path="/" element={<Home />} />
         <Route path="/about" element ={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         
 
 

@@ -9,7 +9,7 @@ console.log("cliked")
 
         return (
 <div>
-<nav class=" border-gray-200 md:mx-auto text-xl text-white">
+<nav class=" border-gray-200 text-xl text-white">
   <div class=" flex flex-wrap items-center justify-between md:mx-auto p-4">
   <a  class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="/Images/logo-icon.svg" class="h-8"/>
@@ -41,26 +41,29 @@ console.log("cliked")
        <div
             className={
               toggle
-                ? " relative  ease-in-out duration-100 items-center text-left divide-y-2 inset-0 w-full overflow-hidden h-fit bg-[#f3772a]   mt-4"
-                : "absolute  items-center w-fit inset-0 md:w-auto md:static md:flex mx-4 space-x-2 -translate-x-96 md:-translate-x-0"
+                ? " relative  ease-in-out duration-100 items-center text-left divide-y-2 inset-0 w-full overflow-hidden h-full bg-[#f3772a]   mt-4"
+                : "absolute  items-center w-full inset-0 md:w-auto md:static md:flex mx-4 space-x-2 -translate-x-96 md:-translate-x-0"
             }
           >
             <div className="md:w-0.5 md:h-6 md:bg-black"></div>
             <div className="fitem px-6 text-md md:px-3 py-6 md:py-0 hover:text-[#E35701] md:hover:underline divide-y-0 hover:underline-offset-8 md:cursor-pointer">
+              <a href="/">
               Home
+              </a>
             </div>
             <div className="fitem px-6 text-md md:px-3 py-4 space-y-4 hover:text-[#E35701] md:hover:underline  hover:underline-offset-4 md:cursor-pointer">
               Shop
             </div>
-            <a>
+            
             <div className="fitem px-6 text-md md:px-3 py-4 md:py-0 hover:text-[#E35701] md:hover:underline  md:hover:underline-offset-4 md:cursor-pointer">
               <a href="/about">
               About
               </a>
             </div>
-            </a>
             <div className="fitem px-6 text-md md:px-3 py-4 md:py-0 hover:text-[#E35701] md:hover:underline  md:hover:underline-offset-4 md:cursor-pointer">
+              <a href="/contact">
               Contact
+              </a>
             </div>
 <div className="hidden md:flex">
             <CartOutline

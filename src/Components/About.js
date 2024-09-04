@@ -7,18 +7,18 @@ export const About = () => {
     <div className="container mx-auto relative">
       <div className="uppercase py-3 text-white headernav text-center relative">
         {/* <img src="/Images/BG-1.jpg" className="mix-blend-screen absolute" /> */}
-        <h1 className="md:text-xl text-sm">A Few Words</h1>
-        <h2 className="md:text-8xl text-2xl">About Us</h2>
+        <h1 className="md:text-xl text-sm wow animate__animated animate__slideInLeft">A Few Words</h1>
+        <h2 className="md:text-8xl text-2xl wow animate__animated animate__slideInRight">About Us</h2>
       </div>
       <div className="flex md:flex-row flex-col">
         <img src="/Images/BG-3.jpg" className="mix-blend-screen w-full h-full absolute" />
-        <div className="flex mx-6 text-left md:w-2/5 py-28">
+        <div className="flex mx-6 text-left md:w-2/5 py-28 wow animate__animated animate__slideInLeft">
           <p className="headernav text-white text-2xl md:text-6xl">
             Our journey began with a shared love for this bewitching season
           </p>
         </div>
-        <div className="flex flex-col mx-6  md:w-2/4 md:py-28 text-white">
-          <div>
+        <div className="flex flex-col mx-6  md:w-2/4 md:py-28 text-white ">
+          <div className="wow animate__animated animate__slideInRight">
             <p className="headernav md:text-2xl text-2xl">
               Our journey began with a shared passion for all things Halloween,
               from the thrill of dressing up in spooky costumes to the joy of
@@ -26,7 +26,7 @@ export const About = () => {
               sweet treats that make the season truly special.
             </p>
           </div>
-          <div className="text-base py-10 text-gray-400">
+          <div className="text-base py-10 text-gray-400 wow animate__animated animate__slideInUp">
             <p>
               Our team of Halloween enthusiasts and connoisseurs has scoured the
               realms of costumes, decorations, and confections to bring you a
@@ -44,14 +44,14 @@ export const About = () => {
           </div>
           <hr class="h-px my-8 bg-gray-400 border-0 dark:bg-gray-700" />
 
-          <div>
+          <div className="wow animate__animated animate__slideInLeft">
             <p className="headernav md:text-2xl text-2xl">
               As devoted Halloween aficionados ourselves, we understand the
               importance of finding the perfect costume that transforms you into
               your favorite character.
             </p>
           </div>
-          <div className="text-base py-10 text-gray-400">
+          <div className="text-base py-10 text-gray-400 wow animate__animated animate__slideInUp">
             <p>
               We curate a handpicked selection of costumes, decorations, and
               sweets that capture the essence of Halloween, ensuring that you
@@ -72,7 +72,7 @@ export const About = () => {
           className="md:h-[590px] h-[590px] mx-auto mix-blend-screen w-[100%] absolute md:w-full object-cover rounded-3xl items-center overflow-hidden"
         />
 
-        <div className="text-white text-center pt-20 mx-6 backdrop-blur-sm">
+        <div className="text-white text-center pt-20 mx-6 backdrop-blur-sm wow animate__animated animate__slideInLeft">
           <h1 className="headernav text-center text-2xl">
             Join the Spooky Shopping Spree Now
           </h1>
@@ -82,7 +82,7 @@ export const About = () => {
           </h1>
         </div>
         <div className="flex flex-col justify-center mb-40 backdrop-blur-sm">
-        <button className="text-white text-base content-center mx-auto text-center bg-[#E35701] p-2 rounded-lg md:w-36 w-28 font-bold">
+        <button className="wow animate__animated animate__slideInLeft text-white text-base  mx-auto text-center bg-[#E35701] p-2 rounded-lg md:w-36 w-28 font-bold">
           SHOP NOW
         </button>
         </div>

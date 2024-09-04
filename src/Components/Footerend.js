@@ -7,7 +7,7 @@ export const Footerend = () => {
   const currentYear = new Date().getFullYear();
   return (
     <section className=''>
-            <div className="container flex md:flex-row flex-col mx-auto  pt-4 relative">
+            <div className="container flex md:flex-row flex-col mx-auto  pt-4 relative wow animate__animated animate__slideInLeft">
                 
     
             <div className='text-white flex-row  text-center md:text-left justify-center md:mx-12 mx-6  '>

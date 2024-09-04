@@ -1,19 +1,21 @@
 import { FooterDivider } from 'flowbite-react';
-import React, { Component } from 'react';
-
-class Hero2 extends Component {
-    render() {
+import React, { Component, useEffect } from 'react';
+import WOW from "wowjs";
+const Hero2= ()=> {
+    useEffect(() => {
+        new WOW.WOW().init();
+      }, [])
         return (
-            <div>
-                <div className='mt-52'>
+            <div className=''>
+                <div className=' mt-52'>
                     <img src='/Images/BG-3.jpg' className=' h-full w-full absolute mix-blend-screen object-cover'/>
-                    <h1 className='text-center text-sm md:text-xl uppercase tracking-wider font-bold text-[#f7660B]'>Sweets</h1>
-                    <h1 className='headernav text-center text-2xl md:text-6xl py-2 uppercase'>Halloween Candy Packs</h1>
+                    <h1 className='wow animate__animated animate__fadeInUpBig text-center text-sm md:text-xl uppercase tracking-wider font-bold text-[#f7660B]'>Sweets</h1>
+                    <h1 className='wow animate__animated animate__fadeInUpBig headernav text-center text-2xl md:text-6xl py-2 uppercase'>Halloween Candy Packs</h1>
                 </div>
                 <FooterDivider className='w-12 mx-auto mt-4 content-center'/>
             <div class="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
     <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
-        <div class="text-left">
+        <div class="text-left wow animate__animated animate__fadeInUpBig">
             <h2
                 class="headernav w-3/4 md:text-left text-center text-2xl uppercase mx-auto  leading-10 tracking-tight text-[#f7660B]  md:text-4xl">
               a sprinkle of magic to every trick-or-treat adventure
@@ -38,7 +40,7 @@ class Hero2 extends Component {
 </div>
 
         );
-    }
+    
 }
 
 export default Hero2;

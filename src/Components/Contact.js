@@ -24,17 +24,18 @@ const Contact = () => {
               We're here to assist you in every way possible, so don't hesitate
               to reach out with any questions or feedback.
             </p>
-            <form className="py-4 space-y-6 text-black" name={handlebtn}>
+            <form className="py-4 space-y-6 text-black relative" name={handlebtn}>
               <label className="text-white">Name</label>
               <div className="flex flex-row md:space-x-6 space-x-3 text-black">
                 <input
+                required
                   type="text"
-                  required
                   placeholder="First Name"
                   className="md:w-[16rem] w-full h-14 p-2 text-black"
                   for="username"
                 />
                 <input
+                required
                   type="text"
                   placeholder="Last Name"
                   className=" md:w-[16rem] w-full h-14 p-2 black"
@@ -43,6 +44,7 @@ const Contact = () => {
               <div>
                 <label className="text-white">Email</label>
                 <input
+                required
                   type="email"
                   placeholder="Email"
                   className="w-full h-14 p-2 text-black"
@@ -51,6 +53,7 @@ const Contact = () => {
               <div>
                 <label className="text-white">Message</label>
                 <textarea
+                required
                   placeholder="Message"
                   className="w-full h-32 p-2 text-black"
                 />
